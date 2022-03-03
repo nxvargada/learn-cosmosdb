@@ -237,3 +237,25 @@ szétosztjuk a documentumot, de csak a filmeknél.
     ]
 }
 ```
+
+### Special Document Properties
+
+| Property      | Value                         |
+| ------------- | ----------------------------- |
+| id            | User-defined unique ID        |
+| user-defined  | Partition key                 |
+| \_rid         | Resource ID                   |
+| \_self        | URI path to the resource      |
+| \_etag        | GUID (optimistic concurrency) |
+| \_attachments | URI suffix to the attachents  |
+| \_ts          | Last updated timestamp        |
+| ttl           | Time to Live (expiration)     |
+
+## SDKs
+
+Supported languages
+
+- .NET / .NET Core
+- Java
+- Node.js
+- Python
